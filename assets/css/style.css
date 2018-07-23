@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  background-image: url("../img/twitter.png");
+}
+
+#wrapper {
+  width: 960px;
+  min-height: 80%;
+  box-sizing: border-box;
+  padding: 5% 0;
+  margin: 5% auto;
+  background-color: white;
+}
+
+#sub-wrapper {
+  position: relative;
+  top: 20%;
+}
+
+button {
+  display: block;
+  width: 300px;
+  height: 100px;
+  margin: 10px auto 0;
+  font-size: 42px;
+  background: transparent;
+  border: 2px dotted #433e90;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 4.0em;
+  font-weight: bold;
+  color: #005e93;
+}
+
+h2 {
+  margin: 25px;
+  font-size: 25px;
+}
+
+#quiz-area h2 {
+  margin-top: 50px;
+}
+
+button{
+  background: white;
+  margin-top: 10px;
+}
+button:hover {
+  border: 2px solid #433e90;
+}
